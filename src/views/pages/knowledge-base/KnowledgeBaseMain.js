@@ -4,6 +4,9 @@ import { Search } from "react-feather"
 import KnowledgeCards from "./KnowledgeCards"
 
 class KnowledgeBaseMain extends React.Component {
+
+
+
   state = {
     value: ""
   }
@@ -20,10 +23,9 @@ class KnowledgeBaseMain extends React.Component {
         <Col sm="12">
           <Card className="knowledge-base-bg">
             <CardBody>
-              <h1 className="white">Dedicated Source Used on Website</h1>
+              <h1 className="white">Hey Influencers</h1>
               <p className="mb-2 white">
-                Bonbon sesame snaps lemon drops marshmallow ice cream carrot
-                cake croissant wafer.
+              Hey Influencers is a platform that matches brands with the top social media influencers around the world. You can create both ‘$ for post’ campaigns, and or ‘product for post’ campaigns.
               </p>
               <form>
                 <FormGroup className="position-relative has-icon-left mb-0">

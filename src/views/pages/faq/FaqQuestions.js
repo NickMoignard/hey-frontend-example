@@ -6,38 +6,38 @@ import classnames from "classnames"
 const collapseItems = [
   {
     id: 1,
-    title: "What does royalty free mean?",
+    title: "What is an Influencer?",
     content:
       "Royalty free means you just need to pay for rights to use the item once per end product. You don't need to pay additional or ongoing fees for each person who sees or uses it. Please note that there may be some limits placed on uses under the different license types available on the marketplaces, such as our Photo and Music Licenses."
   },
   {
     id: 2,
-    title: "What do you mean by item and end product?",
+    title: "What do you mean by gifting campaign?",
     content:
       "The item is what you purchase from Envato Market. The end product is what you build with that item. Example: The item is a business card template the end product is the finalized business card. The item is a button graphic the end product is an app using the button graphic in the app's interface."
   },
   {
     id: 3,
-    title: "Am I allowed to modify the item that I purchased?",
+    title: "Am I allowed to message influencers off platform?",
     content:
       "Yes. You can customize our items to fit the needs of your end product. Example: You could change the colors, text, and layout of a flyer template or convert an HTML template into a WordPress theme for a single client."
   },
   {
     id: 4,
-    title: "What does non-exclusive mean?",
+    title: "What does interstial advertisment mean?",
     content:
       "Non-exclusive means that you are not the only person with access to the item. Others will also be licensing and using the same item."
   },
   {
     id: 5,
-    title: "Is the Regular License the same thing as an editorial license?",
+    title: "I don't have a facebook ads account, can you help me set it up?",
     content:
       "No, our Regular License is for a free end product (whether or not the item is used in the end product in an editorial way). And our Extended License is for an end product that's sold (whether or not the item is used in the end product in an editorial way). If you want to use an item in an editorial way in your end product, choose the Regular License if your end product is distributed for free, and choose the Extended License if your end product is sold to the end customer."
   },
   {
     id: 6,
     title:
-      "Which license do I need for an end product that is only accessible to paying users?",
+      "There is a feature i would like created. Can i request a feature?",
     content:
       "If the end users need to pay to see the end product, you need an Extended License. There can be more than one end user as long as there is only one end product. Example: A website that requires money before you can access the content."
   },

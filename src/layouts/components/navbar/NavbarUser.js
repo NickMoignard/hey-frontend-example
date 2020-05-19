@@ -37,7 +37,7 @@ const UserDropdown = props => {
         <Icon.User size={14} className="mr-50" />
         <span className="align-middle">Edit Profile</span>
       </DropdownItem>
-      <DropdownItem
+      {/* <DropdownItem
         tag="a"
         href="#"
         onClick={e => handleNavigation(e, "/email/inbox")}
@@ -52,7 +52,7 @@ const UserDropdown = props => {
       >
         <Icon.CheckSquare size={14} className="mr-50" />
         <span className="align-middle">Tasks</span>
-      </DropdownItem>
+      </DropdownItem> */}
       <DropdownItem
         tag="a"
         href="#"
@@ -61,10 +61,10 @@ const UserDropdown = props => {
         <Icon.MessageSquare size={14} className="mr-50" />
         <span className="align-middle">Chats</span>
       </DropdownItem>
-      <DropdownItem tag="a" href="#" onClick={e => handleNavigation(e, "/ecommerce/wishlist")}>
+      {/* <DropdownItem tag="a" href="#" onClick={e => handleNavigation(e, "/ecommerce/wishlist")}>
         <Icon.Heart size={14} className="mr-50" />
         <span className="align-middle">WishList</span>
-      </DropdownItem>
+      </DropdownItem> */}
       <DropdownItem divider />
       <DropdownItem
         tag="a"
@@ -327,7 +327,7 @@ class NavbarUser extends React.PureComponent {
               filterKey="title"
               filterHeaderKey="groupTitle"
               grouped={true}
-              placeholder="Explore Vuexy..."
+              placeholder="Explore Hey..."
               autoFocus={true}
               clearInput={this.state.navbarSearch}
               externalClick={e => {
@@ -434,7 +434,7 @@ class NavbarUser extends React.PureComponent {
             </div>
           </div>
         </NavItem>
-        <UncontrolledDropdown
+        {/* <UncontrolledDropdown
           tag="li"
           className="dropdown-notification nav-item"
         >
@@ -496,7 +496,7 @@ class NavbarUser extends React.PureComponent {
               Your Cart Is Empty
             </li>
           </DropdownMenu>
-        </UncontrolledDropdown>
+        </UncontrolledDropdown> */}
         <UncontrolledDropdown
           tag="li"
           className="dropdown-notification nav-item"
@@ -662,7 +662,7 @@ class NavbarUser extends React.PureComponent {
               <span className="user-name text-bold-600">
                 {this.props.userName}
               </span>
-              <span className="user-status">Available</span>
+              <span className="user-status">Online</span>
             </div>
             <span data-tour="user">
               <img

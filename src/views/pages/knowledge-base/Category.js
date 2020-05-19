@@ -33,7 +33,7 @@ class KBCategory extends React.Component {
           <Col lg="4" md="6" sm="12">
             <Card>
               <CardHeader>
-                <CardTitle>Buying</CardTitle>
+                <CardTitle>Niche Specific Advice</CardTitle>
               </CardHeader>
               <CardBody className="knowledge-base-category">
                 <ListGroup flush>
@@ -62,7 +62,7 @@ class KBCategory extends React.Component {
           <Col lg="4" md="6" sm="12">
             <Card>
               <CardHeader>
-                <CardTitle>Item Support</CardTitle>
+                <CardTitle>Gifting Campaigns</CardTitle>
               </CardHeader>
               <CardBody className="knowledge-base-category">
                 <ListGroup flush>
@@ -91,7 +91,7 @@ class KBCategory extends React.Component {
           <Col lg="4" md="6" sm="12">
             <Card>
               <CardHeader>
-                <CardTitle>Payments</CardTitle>
+                <CardTitle>Whitelabeling Influencers</CardTitle>
               </CardHeader>
               <CardBody className="knowledge-base-category">
                 <ListGroup flush>
@@ -120,7 +120,7 @@ class KBCategory extends React.Component {
           <Col lg="4" md="6" sm="12">
             <Card>
               <CardHeader>
-                <CardTitle>Downloads</CardTitle>
+                <CardTitle>Choosing a Product</CardTitle>
               </CardHeader>
               <CardBody className="knowledge-base-category">
                 <ListGroup flush>
@@ -149,7 +149,7 @@ class KBCategory extends React.Component {
           <Col lg="4" md="6" sm="12">
             <Card>
               <CardHeader>
-                <CardTitle>Licenses</CardTitle>
+                <CardTitle>Paid Advertising Guides</CardTitle>
               </CardHeader>
               <CardBody className="knowledge-base-category">
                 <ListGroup flush>
@@ -178,7 +178,7 @@ class KBCategory extends React.Component {
           <Col lg="4" md="6" sm="12">
             <Card>
               <CardHeader>
-                <CardTitle>Documents</CardTitle>
+                <CardTitle>Shopify tips</CardTitle>
               </CardHeader>
               <CardBody className="knowledge-base-category">
                 <ListGroup flush>

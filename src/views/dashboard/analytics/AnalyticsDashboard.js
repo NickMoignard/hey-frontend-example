@@ -1,17 +1,21 @@
 import React from "react"
-import { Row, Col } from "reactstrap"
+import { Row, Col,  } from "reactstrap"
 import SalesCard from "./SalesCard"
-import SuberscribersGained from "../../ui-elements/cards/statistics/SubscriberGained"
-import OrdersReceived from "../../ui-elements/cards/statistics/OrdersReceived"
-import AvgSession from "../../ui-elements/cards/analytics/AvgSessions"
-import SupportTracker from "../../ui-elements/cards/analytics/SupportTracker"
+
 import ProductOrders from "../../ui-elements/cards/analytics/ProductOrders"
 import SalesStat from "../../ui-elements/cards/analytics/Sales"
 import ActivityTimeline from "./ActivityTimeline"
-import DispatchedOrders from "./DispatchedOrders"
+
+import TwitterFeed from "../../pages/profile/TwitterFeeds"
+import Posts from "../../pages/profile/Posts"
+import LatestPhotos from "../../pages/profile/LatestPhotos"
+import Suggestions from "../../pages/profile/Suggestions"
+
+
 
 
 import "../../../assets/scss/pages/dashboard-analytics.scss"
+import  UsersList from "../../apps/user/list/List"
 
 let $primary = "#FBB773",
   $danger = "#FAE59F",
@@ -30,31 +34,34 @@ class AnalyticsDashboard extends React.Component {
     return (
       <React.Fragment>
         <Row className="match-height">
-          <Col lg="6" md="12">
+          <Col lg="12" md="12">
             <SalesCard />
           </Col>
-          <Col lg="3" md="6" sm="12">
-            <SuberscribersGained />
-          </Col>
-          <Col lg="3" md="6" sm="12">
-            <OrdersReceived />
+        </Row>
+        <Row>
+          <Col sm="12" md="12" lg="12">
+            <UsersList />
           </Col>
         </Row>
-        <Row className="match-height">
-          <Col md="6" sm="12">
-            <AvgSession labelColor={$label_color} primary={$primary} />
-          </Col>
-          <Col md="6" sm="12">
-            <SupportTracker
+          
+        <Row>
+              <Col lg="3" md="12">
+                <ActivityTimeline />
+                <TwitterFeed />
+                <SalesStat
+              strokeColor={$stroke_color}
+              infoLight={$info_light}
               primary={$primary}
-              danger={$danger}
-              white={$white}
+              info={$info}
             />
-          </Col>
-        </Row>
-        <Row className="match-height">
-          <Col lg="4">
-            <ProductOrders
+              </Col>
+              <Col lg="6" md="12">
+                <Posts />
+              </Col>
+              <Col lg="3" md="12">
+                <LatestPhotos />
+                <Suggestions />
+                <ProductOrders
               primary={$primary}
               warning={$warning}
               danger={$danger}
@@ -62,24 +69,12 @@ class AnalyticsDashboard extends React.Component {
               warningLight={$warning_light}
               dangerLight={$danger_light}
             />
-          </Col>
-          <Col lg="4">
-            <SalesStat
-              strokeColor={$stroke_color}
-              infoLight={$info_light}
-              primary={$primary}
-              info={$info}
-            />
-          </Col>
-          <Col lg="4">
-            <ActivityTimeline />
-          </Col>
-        </Row>
-        <Row>
-          <Col sm="12">
-            <DispatchedOrders />
-          </Col>
-        </Row>
+              </Col>
+          </Row>
+            
+        
+       
+        
       </React.Fragment>
     )
   }
